@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1 id="header">GeeksforGeeks Survey Form</h1>
+    <div id="form">
+    <form action="">
+        
+
+        Name <br><input type="text" name="name" placeholder="Enter your name" id="name"><br><br>
+        Email <br><input type="text" placeholder="Enter your email" id="email"><br><br>
+        Age <br><input type="text" placeholder="Enter your age" id="age"><br><br>
+        Which option best describes you <br>
+        <select name="numbers" id="numberSelect">
+            <option value="1">Student</option>
+            <option value="2">Intern</option>
+            <option value="3">Employee</option>
+            <option value="4">Bussiness man</option>
+            
+        </select>
+        <br><br>
+        Do you recommend GeeksforGeeks to your friend
+        <br>
+        <div>
+        <input type="radio" name="recommend"> Yes </input>
+        <br>
+        <input type="radio" name="recommend">No <br>
+        
+        <input type="radio" name="recommend">Maybe
+        </div>
+        <br><br>
+        Languages and Frameworks known
+        <br>
+        <div>
+            <input type="checkbox" name="Languages"> C
+            <br>
+            <input type="checkbox" name="Languages"> C++
+            <br>
+            <input type="checkbox" name="Languages"> Java
+            <br>
+            <input type="checkbox" name="Languages"> Python
+            <br>
+            <input type="checkbox" name="Languages"> HTML
+            <br>
+            <input type="checkbox" name="Languages"> CSS
+            <br>
+            <input type="checkbox" name="Languages"> JavaScript
+            
+        </div>
+        <br><br>
+        Any Comments or Suggestions
+        <br>
+       <textarea name="textarea" id="textarea"></textarea>
+
+       <button  id="button">Submit</button>
+
+    </form>
+    </div>
+    <script src="form.js">
+        
+    </script>
+    
+</body>
+</html>

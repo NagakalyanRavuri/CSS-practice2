@@ -1,0 +1,16 @@
+#main{
+    display: flex;
+    background-color: black;
+    height: 40px;
+    align-items: center;
+}
+div{
+    flex-grow: 1;
+    text-align: center;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}

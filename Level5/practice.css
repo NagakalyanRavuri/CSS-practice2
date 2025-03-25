@@ -1,0 +1,41 @@
+#main{
+    height: 100px;
+    width: 500px;
+    border: solid 2px black;
+   display: flex;
+    
+    transition: all;
+    
+  
+}
+
+div{
+    width: 40px;
+    height: 30px;
+    border: solid 2px black;
+  
+   margin: 5px;
+   text-align: center;
+
+}
+#yesandno{
+    border: none;
+}
+
+#p{
+    width: 100%;
+    border: none;
+    margin-left: 100px;
+}
+#yes:hover{
+    background-color: rgb(8, 186, 8);
+    color: white;
+}
+#no:hover{
+    background-color: red;
+    color: white;
+}
+
+
+
+

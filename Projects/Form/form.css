@@ -1,0 +1,50 @@
+body{
+    background-color: lightgreen;
+}
+#form{
+   display: flex;
+   justify-self: center;
+    width: 500px;
+    height: 760px;
+    border: solid 2px green;
+    padding: 20px;
+    background-color: white;
+}
+h1{
+    text-align: center;
+}
+#name{
+    width: 500px;
+    height: 20px;
+    margin-top: 3px;
+}
+
+#email{
+    width: 500px;
+    height: 20px;
+    margin-top: 3px;
+}
+
+#age{
+    width: 500px;
+    height: 20px;
+    margin-top: 3px;
+}
+#textarea{
+    width: 500px;
+    height: 60px;
+    margin-top: 3px;
+}
+#numberSelect{
+    width: 430px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+button{
+    width: 500px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: lightgreen;
+    color: black;
+}

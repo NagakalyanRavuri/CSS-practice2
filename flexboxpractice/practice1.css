@@ -1,0 +1,44 @@
+
+body{
+   
+    display: flex;
+    justify-content: center;
+}
+#main{
+    width: 800px;
+    height: 300px;
+    border: solid 2px black;
+    background-color: white;
+    display: flex;
+    
+    
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    border: solid 2px black;
+    display: inline-block;
+    justify-content: center; 
+    flex-grow: 2;
+}
+
+#div1{
+    background-color: aquamarine;
+    
+}
+#div2{
+
+    background-color: rgb(58, 210, 7);
+    flex-grow: 1;
+}
+#div3{
+    background-color: rgb(47, 158, 226);
+   
+}
+#div4{
+    background-color: rgb(234, 9, 61);
+}
+#div5{
+    background-color: rgb(104, 193, 9);
+}

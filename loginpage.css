@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(24, 105, 175);
+    place-items: center;
+}
+
+#header{
+    padding-top: 100px;
+    text-align: center;
+    
+   
+}
+#form{
+    text-align: center;
+}
+#div{
+   height: 200px;
+   width: 300px;
+    background-color: rgb(170, 72, 226);
+    place-items: center;
+    padding-top: 100px;
+    border-radius: 15px;
+    border-style: dotted;
+   
+    
+   
+}

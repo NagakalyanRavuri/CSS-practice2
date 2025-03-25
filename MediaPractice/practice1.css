@@ -1,0 +1,15 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px;
+}
+
+@media ( min-width: 300px) and ( max-width: 400px)  {
+    div{
+        background-color: green;
+    }
+}
+
+
+

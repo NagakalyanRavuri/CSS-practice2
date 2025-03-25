@@ -1,0 +1,19 @@
+div{
+    background-color: black;
+    
+    height: 60px;
+    
+}
+a{
+    margin-right: 200px;
+    color: white;
+    text-decoration: none;
+}
+#logo{
+    color:#f08804;
+    margin-left: 2px;
+    font-size: 25px;
+}
+button{
+    background-color:#f08804;
+}

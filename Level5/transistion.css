@@ -1,0 +1,14 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    background-color: aqua;
+    transition: all 1s ease-in;   
+}
+
+div:hover{
+    background-color: lightgreen;
+    font-size: 30px;
+    transform: rotate(360);
+
+}

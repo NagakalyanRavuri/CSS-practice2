@@ -1,0 +1,36 @@
+#title{
+    width: fit-content;
+    height: fit-content;
+    border: solid 2px black;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-self: center;
+}
+
+#text{
+    margin-top: 100px;
+    width: fit-content;
+    height: fit-content;
+    border: solid 2px black;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: black;
+    color: white;
+}
+
+
+#Projects{
+    margin-top: 500px;
+    width: fit-content;
+    height: fit-content;
+    border: solid 2px black;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}

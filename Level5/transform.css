@@ -1,0 +1,15 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    color: black;
+}
+
+div:hover{
+    background-color: red;
+    color: white;
+}
+div:active{
+    background-color: aqua;
+    color: black;
+}

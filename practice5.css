@@ -1,0 +1,10 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-image: url(1.avif);
+    background-size: cover;
+    position: fixed;
+   top: 30px;
+    left: 0px;
+
+}

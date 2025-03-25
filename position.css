@@ -1,0 +1,60 @@
+
+div{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    display: inline-block;
+    
+    
+}
+
+#box1{
+    position: relative;
+    top: 50px; 
+    background-color: green;
+}
+#box2{
+    position: absolute;
+   top: 20px;
+   left: 30px;
+   background-color: red;
+}
+#box5{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 20px;
+    background-color: blue;
+    width: 100%;
+    
+
+div{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    display: inline-block;
+    
+    
+}
+
+#box1{
+    position: relative;
+    top: 50px; 
+    background-color: green;
+}
+#box2{
+    position: absolute;
+   top: 20px;
+   left: 30px;
+   background-color: red;
+}
+#box5{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 20px;
+    background-color: blue;
+    width: 100%;
+}

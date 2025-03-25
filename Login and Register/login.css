@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    left: 37.5%;
+    background-color: rgb(43, 209, 115);
+  
+   
+}
+#form{
+    width: fit-content;
+    height: fit-content;
+    border: solid 2px black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: blueviolet;
+    color: white;
+    align-self: center;
+    background: transparent;
+   backdrop-filter: blur(20px);
+  
+
+    
+}
+h2{
+    text-align: center;
+}
+
+input{
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 10px;
+    
+     
+}
+#user{
+    width: 275px;
+    
+    height: 40px;
+    margin: 10px;
+    
+}
+#name{
+    width: 100%;
+    
+    
+}
+#password{
+    width: 275px;
+    
+    height: 40px;
+    margin: 10px;
+
+}
+#pass{
+    width: 100%;
+    
+    
+}
+#buttondiv{
+    width: 290px;
+    
+    height: 40px;
+    margin: 10px;
+}
+#button{
+    width: 100%;
+}

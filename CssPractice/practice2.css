@@ -1,0 +1,32 @@
+#main{
+    width: 700px;
+    height: 500px;
+    padding: 10px;
+    background-color: red;
+    border: solid 2px black;
+    border-radius: 15px;
+    margin-left: 20%;
+    
+}
+
+
+#aboutbox{
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    text-align: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+}
+#footer{
+    font-family:serif;
+    font-size: 30px;
+    text-align: center;
+}
+#image{
+   
+    margin-left: 25%;
+    width: 50%;
+    background-image: url(rewanth_bhai.png);
+}
+

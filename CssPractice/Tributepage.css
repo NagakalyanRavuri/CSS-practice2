@@ -1,0 +1,33 @@
+body{
+    text-align: center
+    
+}
+*{
+    background-color: orange;
+}
+h1{
+    text-transform: uppercase;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#image{
+    background-image: url(nitish_bhai.png);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    margin-left: 600px;
+    margin-bottom: 10px;
+}
+#text{
+    width: 800px;
+    text-align: justify;
+    margin-left: 350px;
+    border: solid 5px rgb(57, 53, 53);
+    padding: 10px;
+    
+    box-shadow: 20px 20px 20px #7c5a04;
+    
+    
+}
+

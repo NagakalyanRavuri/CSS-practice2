@@ -1,0 +1,33 @@
+#div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(77, 52, 161);
+    border-style: solid;
+    display: inline-block;
+}
+#main{
+    background-color: black;
+      height: 60px;
+      
+    
+}
+#content{
+    height: 600px;
+}
+a{
+    margin-right: 200px;
+    color: white;
+    text-decoration: none;
+}
+#logo{
+    color:#f08804;
+    margin-left: 2px;
+    font-size: 25px;
+}
+button{
+    background-color:#f08804;
+}
+#footer{
+    text-align: center;
+}
