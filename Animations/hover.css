@@ -1,0 +1,40 @@
+#parent {
+    width: 530px;
+    height: 130px;
+    border-radius: 15px;
+    background-color: rgb(245, 245, 242);
+    box-shadow: 3px 3px 3px 3px rgb(76, 78, 77);
+    margin-top: 10%;
+    margin-left: 20%;
+    
+    /* Grid properties */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    place-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+#child{
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#child:hover {
+    background-color: rgb(236, 237, 237);
+    transform: scale(1.05);  /* Smooth zoom effect instead of margin shift */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    color: ra;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+    
+}
+body {
+    background: radial-gradient(circle, #117ce7, #e0e0e0);
+}
