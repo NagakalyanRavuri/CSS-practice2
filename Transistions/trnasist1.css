@@ -1,0 +1,13 @@
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    transition-delay: 1s;
+}
+#box:hover{
+    background-color: blue;
+    height: 500px;
+}

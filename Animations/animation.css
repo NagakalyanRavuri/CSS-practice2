@@ -1,9 +1,40 @@
-#circle{
+#circle {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-color: blue;
-     
+    background-color: rgb(66, 14, 189);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
     
+    position: relative;
+    
+    /* Applying two animations */
+    animation: move 10s ease-in-out infinite, colorChange 1s linear infinite;
 }
 
+/* Animation 1: Move left and right */
+@keyframes move {
+    0%{
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(700px);
+    }
+}
+
+/* Animation 2: Color change */
+@keyframes colorChange {
+    0% {
+        background-color: rgb(66, 14, 189);
+    }
+    50% {
+        background-color: rgb(195, 15, 15);
+    }
+    100% {
+        background-color: rgb(66, 14, 189);
+    }
+}
